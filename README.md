@@ -2,7 +2,7 @@
 
 ## Philosophy
 
-One thing people often criticize LLMs is that it only knows existing knowledge, but cannot generate new or innovative contents for human.  
+One thing people often criticize LLM is that it only knows existing knowledge, but cannot generate new or innovative contents for human.  
 
 However, we are the ones that trained LLMs with texts that we deem as good or true. We limit LLMs to human knowledge, so it certainly cannot generate things beyond our knowledge.  
 
