@@ -9,14 +9,14 @@ However, we are the ones that trained LLMs with texts that we deem as good or tr
 But this repo is to break this boundary. LLMs are trained to understand 1. _What human know_. 2. _What human want_. If we take the negation of 1 then AND it with 2, it's possible to 
 generate unknown knowledge that can be beneficial for human, i.e. the "new knowledge" that we dream of.
 
-## Experiment 1
+## Experiment 1 [(code)](https://github.com/ScottLinnn/superhuman-gpt/tree/experiment-1)
 
 It's hard to directly ask LLMs to generate ^1. 
 
 - One way is changing the architecture to intentionally generate the lowest probability words, but that could be too expensive as an initial experiment.
 - Another way is simply promting LLM to do so, but what I got is "due to OpenAI's policy, I can't do this..."
-- So I start with making a random word generator that outputs pairs of words _absolutely randomly_. The idea/philosophy here is that what human don't know lie withint the unprecedent combination of
-words, so we can generate the "unknown" by randomly combining words then leveraging LLM's inference ability to judge if any values or any inspirations can be drawn from the words. Of course, it doesn't have to be
+- So I start with making a random word generator that outputs pairs of words _absolutely randomly_. The idea/philosophy here is that what human don't know lie within the unprecedent, unreasonable combination of
+words, so we can generate the "unknown" by randomly combining words, then we can leverage LLM's inference ability to judge if any values or any inspirations can be drawn from the words. Of course, it doesn't have to be
 pairs, it can be any length, but I need to figure out the computation and running plan before implementing that.
 
 What I got looks like this: 
